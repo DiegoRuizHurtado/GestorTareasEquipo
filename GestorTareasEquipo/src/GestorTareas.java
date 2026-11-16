@@ -13,7 +13,6 @@ public class GestorTareas {
 		public static void agregarTarea(String descripcion) {
 			 if (descripcion != null && !descripcion.isBlank()) {
 				 tareas.add(descripcion);
-				 }
+			 	}
 		}
-
 }
