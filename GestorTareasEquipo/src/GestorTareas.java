@@ -6,7 +6,7 @@ public class GestorTareas {
 
 	public static void main(String[] args) {
 
-		System.out.println("Gestor de tareas - versión B");
+		System.out.println("Gestor de tareas - A y B");
 
 	}
 	public static void listarTareas() {
@@ -18,6 +18,7 @@ public class GestorTareas {
 			System.out.println((i + 1) + ". " + tareas.get(i));
 		}
 	}
+		
 		public static void agregarTarea(String descripcion) {
 			 if (descripcion != null && !descripcion.isBlank()) {
 				 tareas.add(descripcion);
